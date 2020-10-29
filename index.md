@@ -1,37 +1,118 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jeeisielferreira/primeirosite.htmls/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="pt-br"\>
+<head>
+    <meta charset="UTF-8"\>
+    <title>titulo caçador de entidade</title>
+    
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <style>
+        body{
+    background-color: seashell);
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+div#interface {
+    width: 980px;
+    margin:0px auto 0px auto;
+    box-shadow: 0px 50px 40px  rgba(0,0,0,.50);
+    padding: 10px;
+    background:gainsboro;
+    position: relative;
+    border:royalblue 1px  solid ;
+    
+}
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+figure.foto-legenda {
+    box-shadow: 0px 4px 20px  rgba(0,0,0.5);
+    position: relative;
+    color:white;
+    border:royalblue 1px  solid ;
 
-- Bulleted
-- List
+    
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    position: absolute;
+    opacity: 0;
+    position:absolute ;
+    top: 0;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height : 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s ;
+}
 
-1. Numbered
-2. List
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
 
-**Bold** and _Italic_ and `Code` text
+p {
+    font-size: 50px;
+    font: grid-area: ;;
+}
 
-[Link](url) and ![Image](src)
-```
+figure.foto-jeisiel {
+    top:-10;
+position: absolute;
+right:10px ;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+figure.foto-alan {
+    top:750px;
+    position: absolute;
+    height:-10px ;
+    
+}
+h1{
+    font-size: 60px;
+    color: royalblue;
+} 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jeeisielferreira/primeirosite.htmls/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+    
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </style>
+
+
+
+</head>
+<body>
+
+<figure class="foto-jeisiel">
+    <img src="fotos/jeisiel.png"\>
+</figure>    
+<figure class="foto-alan">
+    <img src="fotos/alan.png" alt="some text" width=400 height=700>
+</figure>
+    <div id="interface"\>
+
+    </hgroup>
+    <a href="https://www.facebook.com/alan.matospereira" target="_blank"> alan pereira </a>
+    <h1>meu sonho</h1>
+    <p>fala galera aqui é alan matos pereira e sejam bem vindos, esse é meu canal de terror estou me dedicando muito meu sonho de ser yutuber, mas vou falar a verdade não esta sendo fácil todos os dias luto muito e com todas as minhas forças se deus quiser eu vou realizar meu maior sonho.</p>
+    <figure class="foto-legenda">
+        <img src="fotos/canal.png">
+        <figcaption>
+            <h3><a href="https://www.youtube.com/channel/UCQOG02nXJSTWxU0U9kWZmhg" target="_blank">ir para o cannal</a></h3>
+        
+        </figcaption>    
+    </figure>
+    
+    <p>mas como diz o ditado:<em>  Um sonho nunca morre, para os que acreditam! <br> Um caminho nunca acaba, para os que desejam continuar. <br> A esperança nunca termina, com o nosso desânimo  Produtor: <a href="https://www.facebook.com/jeisiel.antunes/" target="_blank">jeisiel antunes </a> </p>
+
+</body>
+</hgroup>
+
+</div>
+
+</html>
